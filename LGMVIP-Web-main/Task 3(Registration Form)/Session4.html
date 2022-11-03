@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>Registration Form</h1>
+    </center>
+    <form action="">
+        <fieldset style="background-color: aliceblue;">
+            <fieldset>
+                <legend>Student details</legend>
+                <label>First-name <input type="text" name="firstname" placeholder="Enter your firstname"></label>
+                <label>Middle-name <input type="text"name="middlename" placeholder="Enter your middlename"></label>
+                <label>Last-name <input type="text" name="lastname" placeholder="Enter your lastname"></label>
+                <br>
+                <br>
+                <label>Roll-no <input type="number" name="rollno" placeholder="Enter Rollno"></label>
+                <br>
+                <br>
+                <legend>Gender</legend>
+                <label>Male <input type="radio" name="radio"></label>
+                <label>Female <input type="radio" name="radio"></label>
+                <label>Other <input type="radio" name="radio"></label>
+                <br>
+                <br>
+
+                <fieldset>
+                    <legend>Education</legend>
+                    <label>College name: <input type="text" name="collegename" placeholder="Enter college name"></label>
+                    <label>University name: <input type="text" name="collegename" placeholder="Enter university name"></label><br><br>
+                    <label>Department</label>
+                    <select>
+                    <option value="IT">ENTC</option>
+                    <option value="CSE">CSE</option>
+                    <option value="MECHANICAL">MECHANICAL</option>
+                    <option value="ENTC">IT</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="ELECTRICAL">ELECTRICAL</option>
+                    <option value="OTHER">OTHER</option>
+                </select>
+                </fieldset>
+                <br>
+
+                <legend>Hobbies</legend>
+                <label>Photography<input type="checkbox" name="hobbies"></label>
+                <label>Reading <input type="checkbox" name="hobbies"></label>
+                <label>Watching movies <input type="checkbox" name="hobbies"></label>
+                <label>Singing <input type="checkbox" name="hobbies"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Email & password</legend>
+                <label>Email <input type="email" placeholder="Enter your email"></label>
+                <br><br>
+                <label for="phone">Phone-no <input type="tel" id="phone" maxlength="10" name="Phone-no" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></label>
+                <label>Password <input type="password"></label>
+                <br>
+                <label>Address</label>
+                <textarea name="Address" cols="50" rows="1"></textarea>
+                <br><br>
+
+                <label>Date</label>
+                <input type="date">
+            </fieldset>
+        </fieldset>
+        <br>
+        <!-- <center><input type="submit"  name="Login" value="Login">
+        <input type="reset" name="reset" >
+        </center> -->
+        <center>
+            <button>
+            Submit
+            </button>
+            <input type="reset" name="reset">
+        </center>
+    </form>
+</body>
+
+</html>
